@@ -6,18 +6,11 @@
 #include<stdlib.h>
 #include<time.h>
 
-
-void afficher(int tab[4]){
-    for(int i = 0; i < 4; i++ ){
-        printf("%d, ", tab[i]);
-    }
-}
-
+void afficher(int tab[4]){for(int i = 0; i < 4; i++ ){printf("%d, ", tab[i]);}}
 
 // ------------------------------------------------ 1ER GRANDE FONCTION : COMPO ----------------------------------
-int ft_petite_verif(int tab[4], int x){
-    int i=0;
-    while(i<4){
+int ft_petite_verif(int tab[4], int x){int i=0;
+while(i<4){
         if (tab[i] == x && tab[i] != 0){
             return 9;
         }
@@ -56,21 +49,17 @@ void ft_creer_compo(int tab[4]){
 }
 // ------------------------------------------------ 1ER GRANDE FONCTION : COMPO ----------------------------------
 
-
 // ------------------------------------------------ 2E GRANDE FONCTION : ANALOGIE (LETTRE = CHIFFRE) ----------------------------------
 
-define {
+// define {
     
-}
+// }
 
-void ft_converter(int tab[4]){
-
-
-
-}
+// void ft_converter(int tab[4]){
 
 
 
+// }
 
 int main(){
     srand(time( NULL ) );
